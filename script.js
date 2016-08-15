@@ -1,11 +1,14 @@
-var greeting = "What is your name?"; 
+// var greeting = "What is your name?"; 
 
-function getUserName() {
-    return prompt(greeting);
-}
+// function getUserName() {
+//     return prompt(greeting);
+// }
 
-function yourFunction() {
-     alert("Hello "+getUserName());
-}
+// function myFunction() {
+//     alert("Hello "+getUserName());
+    
+// }
 
-yourFunction();
+// myFunction();
+
+

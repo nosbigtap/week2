@@ -5,6 +5,15 @@
     </head>
     
     <body>
-       
+       <script type="text/javascript">
+        function storeUserInput(value) {
+            document.getElementById("<%=hidValue.ClientID%>").value = value;
+        }
+    </script>
+
+<form id="form1" runat="server">
+        <input type="text" id="hidValue" runat="server" />
+
+</form>
     </body>
 </html>
