@@ -1,14 +1,5 @@
-// var greeting = "What is your name?"; 
+var name = prompt("Please enter your name", "YOUR NAME")
 
-// function getUserName() {
-//     return prompt(greeting);
-// }
-
-// function myFunction() {
-//     alert("Hello "+getUserName());
-    
-// }
-
-// myFunction();
+alert(name + "\n" + name.length + "\n" + name.charAt(1) + "\n" + name.toLowerCase() + "\n" + name.toUpperCase() + "\n" + "You entered " + name + "\n" + name.substring(1, 4));
 
 
