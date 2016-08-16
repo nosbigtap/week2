@@ -28,23 +28,46 @@ function validDate () {
     var birthDate = prompt ("Please enter your birthday using two digit format for month/day/year: xx/xx/xx", "Date of Birth");
     if (
         birthDate.charAt(2) === "/" && birthDate.charAt(5) && birthDate.length === 8
-        && birthDate.charAt(0) >= 0 && birthDate(0) <= 9
-        && birthDate.charAt(1) >= 0 && birthDate(1) <= 9
-        && birthDate.charAt(3) >= 0 && birthDate(3) <= 3
-        && birthDate.charAt(4) >= 0 && birthDate(4) <= 9
-        && birthDate.charAt(6) >= 0 && birthDate(6) <= 9
-        && birthDate.charAt(7) >= 0 && birthDate(7) <= 9) {
-            alert("Valid Date")
+        && birthDate.charAt(0) >= 0 && birthDate.charAt(0) <= 9
+        && birthDate.charAt(1) >= 0 && birthDate.charAt(1) <= 9
+        && birthDate.charAt(3) >= 0 && birthDate.charAt(3) <= 3
+        && birthDate.charAt(4) >= 0 && birthDate.charAt(4) <= 9
+        && birthDate.charAt(6) >= 0 && birthDate.charAt(6) <= 9
+        && birthDate.charAt(7) >= 0 && birthDate.charAt(7) <= 9) {
+            alert("Valid Date");
             validZipCode();
         }else {
             alert("Invalid date/format please re-enter date.")
-            birthDate ()
+            birthDate ();
         }
 }
 
 function validZipCode () {
     var zipCode = prompt ("Please enter your 7 digit postal (zip) code");
-    if () {
-        
+    if (
+        zipCode.length = 5
+        && zipCode.charAt(0) >= 0 && zipCode.charAt(0) <= 9
+        && zipCode.charAt(1) >= 0 && zipCode.charAt(1) <= 9
+        && zipCode.charAt(2) >= 0 && zipCode.charAt(2) <= 9
+        && zipCode.charAt(3) >= 0 && zipCode.charAt(3) <= 9
+        && zipCode.charAt(4) >= 0 && zipCode.charAt(4) <= 9
+        ) {
+        alert("Acceptable Zip");
+        stateAbrev ();
     }
+    if else ((
+        zipCode.length = 10 && zipCode.charAt(5) === "-"
+        && zipCode.charAt(0) >= 0 && zipCode.charAt(0) <= 9
+        && zipCode.charAt(1) >= 0 && zipCode.charAt(1) <= 9
+        && zipCode.charAt(2) >= 0 && zipCode.charAt(2) <= 9
+        && zipCode.charAt(3) >= 0 && zipCode.charAt(3) <= 9
+        && zipCode.charAt(4) >= 0 && zipCode.charAt(4) <= 9
+        ) {
+        alert("Acceptable Zip");
+        stateAbrev ();
+    })
+}
+
+function stateAbrev () {
+    
 }
